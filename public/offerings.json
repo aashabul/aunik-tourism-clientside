@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "name": "Paris",
+        "price": 500,
+        "img": "https://travel.usnews.com/dims4/USNEWS/c5a8f6d/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/gettyimages-532590277_2ZNe4ra.jpg",
+        "description": "Get lost wandering along Paris' cobblestone streets, or grab a croissant and relax on the banks of the Seine for hours."
+    },
+    {
+        "id": 2,
+        "name": "Rome",
+        "price": 700,
+        "img": "https://travel.usnews.com/dims4/USNEWS/981979e/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/main_image_cropped_rome_445x280_f0qQD4i.jpg",
+        "description": "St. Peter's Basilica and the Sistine Chapel, Colosseum, the Trevi Fountain and the Pantheon  can be found in nearby Vatican City."
+    },
+    {
+        "id": 3,
+        "name": "Maui",
+        "price": 800,
+        "img": "https://travel.usnews.com/dims4/USNEWS/070489a/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/GettyImages-117211856_TeGITRy.jpg",
+        "description": "Don't miss a chance to visit Haleakala National Park, colored beaches, which is home to the world's largest dormant volcano."
+    },
+    {
+        "id": 4,
+        "name": "Bali",
+        "price": 300,
+        "img": "https://travel.usnews.com/dims4/USNEWS/8468e04/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/445_280_1296099441_a936e2155c_b_445x280_QbEpnh1.jpg",
+        "description": "Break up your beach time with a visit to the village of Kintamani, home to a towering (and active) volcano, as well as a large lake."
+    },
+    {
+        "id": 5,
+        "name": "Grand Canyon",
+        "price": 900,
+        "img": "https://travel.usnews.com/dims4/USNEWS/7d95859/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/grand_canyon_main_2014_-_shutterstock-kojihirano_kUxSzuP.jpg",
+        "description": "Measuring roughly 277 miles long, 18 miles wide and a mile deep, the Grand Canyon offers plenty of outdoor activities."
+    },
+    {
+        "id": 6,
+        "name": "Machu Picchu",
+        "price": 1000,
+        "img": "https://travel.usnews.com/dims4/USNEWS/4b9c8c1/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/main_mp_image_445x280_7oXslPi.jpg",
+        "description": "A visit to the Lost City of the Incas is not for the faint of heart, but it is often described as a life-changing experience."
+    },
+    {
+        "id": 7,
+        "name": "South Island, New Zealand",
+        "price": 400,
+        "img": "https://travel.usnews.com/dims4/USNEWS/a798492/2147483647/resize/445x280%5E%3E/crop/445x280/quality/85/?url=https://travel.usnews.com/images/edited_south_island_nz_getty_irma_ferreira_445x280_dxgXWlc.jpg",
+        "description": "New Zealand's South Island brims with majestic landscapes at every turn, from dramatic mountains to fjords to glaciers."
+    }
+]
