@@ -38,14 +38,14 @@ const Header = () => {
 
                             {
                                 user?.email ?
-                                    <Button className="mx-3" variant="light" onClick={logOut}>Logout</Button> :
+                                    <Button className="ms-2" variant="light" onClick={logOut}>Logout</Button> :
                                     <Nav.Link as={Link} to="/login">Log In</Nav.Link>
                             }
                         </Nav>
                         {
                             user.displayName &&
                             < Navbar.Text >
-                                Signed in as: <a href="#login">{user.displayName}</a>
+                                <a href="#login"><img height="15%" width="15%" className="rounded-circle me-2" src={user?.photoURL} alt="" />{user.displayName}</a>
                             </Navbar.Text>
 
                         }
