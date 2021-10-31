@@ -8,22 +8,19 @@ const Banner = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://images.pexels.com/photos/386000/pexels-photo-386000.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                        alt="First slide"
+                        src="https://i.ibb.co/WDmsb8m/glo.png"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://images.pexels.com/photos/9989434/pexels-photo-9989434.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                        alt="Second slide"
+                        src="https://i.ibb.co/84q6Xhs/glo-1.png"
                     />
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://images.pexels.com/photos/2087391/pexels-photo-2087391.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-                        alt="Third slide"
+                        src="https://i.ibb.co/cQyCgyz/glo-2.png"
                     />
                 </Carousel.Item>
             </Carousel>

@@ -3,21 +3,22 @@ import { Carousel } from 'react-bootstrap';
 
 const Review = () => {
     return (
-        <div id="review" className="d-flex flex-direction-column my-5 px-5">
-            <div className="w-50 bg-warning">
+        <div id="review" className="d-flex my-5 px-5 pt-5">
+            <div className="bg-warning p-5 text-start">
                 <h3>Customer Review</h3>
+                <p>We pride ourselves on providing our customers with the highest level of customer service. If you made a purchase, had service work performed, or bought parts and accessories from us, we want to hear what you think.
+                    Please fill out the customer satisfaction survey below and let us know how we’re doing.</p>
             </div>
-            <div className="w-50">
-                <Carousel>
+            <div>
+                <Carousel className="text-dark">
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="https://images.pexels.com/photos/8972292/pexels-photo-8972292.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-                            alt="First slide"
+                            src="https://i.ibb.co/QCRGLtj/pexels-photo-8972292.png"
                         />
                         <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h3>First Customer</h3>
+                            <p>We think this is the best place to invest your money.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -28,8 +29,8 @@ const Review = () => {
                         />
 
                         <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <h3>Second Customer</h3>
+                            <p>I have a good moment with Aunik Tourism.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
@@ -40,8 +41,8 @@ const Review = () => {
                         />
 
                         <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            <h3>Third Customer</h3>
+                            <p>I would recomend their service!!</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
