@@ -6,7 +6,20 @@ initializeAuthentication();
 
 const useFirebase = () => {
     const [user, setUser] = useState({});
-    // const [isLoading, setIsLoading] = useState(true);
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(() => {
+        const unSubscribe = onAuthStateChanged(auth, (user) => {
+            if (user) {
+                setUser(user);
+            }
+            else {
+                setUser({});
+            }
+            setIsLoading(false);
+        })
+        return () => unSubscribe()
+    }, [])
 
     const auth = getAuth();
 
@@ -21,7 +34,9 @@ const useFirebase = () => {
     return {
         user,
         setUser,
-        signInWithGoogle
+        signInWithGoogle,
+        isLoading,
+        setIsLoading
     }
 }
 

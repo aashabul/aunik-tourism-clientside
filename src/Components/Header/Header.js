@@ -26,7 +26,7 @@ const Header = () => {
                             }
                         </Nav>
                         {
-                            user?.displayName &&
+                            user.displayName &&
                             < Navbar.Text >
                                 Signed in as: <a href="#login">{user.displayName}</a>
                             </Navbar.Text>

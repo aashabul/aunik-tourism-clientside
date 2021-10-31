@@ -5,7 +5,7 @@ import useFirebase from '../../../Hooks/useFirebase';
 import useAuth from './../../../Hooks/useAuth';
 
 const Login = () => {
-    const { signInWithGoogle, setUser } = useAuth();
+    const { signInWithGoogle, setUser, setIsLoading } = useAuth();
     const history = useHistory();
     const location = useLocation();
     const url = location.state?.from || "/home"
@@ -13,10 +13,14 @@ const Login = () => {
     const handleGoogleLogin = () => {
         signInWithGoogle()
             .then((res) => {
+                setIsLoading(true)
                 setUser(res.user)
                 history.push(url)
             })
-            .catch((err) => console.log(err));
+            .catch((err) => console.log(err))
+            .finally(() => {
+                setIsLoading(false)
+            })
     }
 
     return (
