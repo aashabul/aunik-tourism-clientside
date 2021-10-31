@@ -20,7 +20,7 @@ const PlaceOrder = () => {
         }
     }, [details])
     return (
-        <div className="p-5">
+        <div className="p-5 my-5">
             <h2 className="mb-5">Place Order</h2>
             <div className="d-flex  flex-wrap">
                 <div className="d-flex flex-column col-md-6 w-50 text-start">
