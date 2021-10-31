@@ -30,13 +30,21 @@ const useFirebase = () => {
 
     }
 
+    const logOut = () => {
+        signOut(auth).then(() => {
+            setUser({});
+        }).catch((error) => {
+
+        })
+    }
 
     return {
         user,
         setUser,
         signInWithGoogle,
         isLoading,
-        setIsLoading
+        setIsLoading,
+        logOut
     }
 }
 
