@@ -1,18 +1,21 @@
 # Aunik Tourism
 
-Code Link: [https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-aashabul](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-aashabul).
+Client-side codeLink: [https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-aashabul](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-aashabul).
+
+Server-side codeLink: [https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-aashabul](https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-aashabul).
 
 Livesite Link: 
+[https://aunik-tourism.web.app/](https://aunik-tourism.web.app/).
 
 ## About this project
 
-* 
+This is a Tousirm website where users can:
+* login with gmail id
+* logout
+* only loggedin users can book services and view manage all orders, my orders and add a new plan.
+* The data is hosted with mongodb.
+* In place order, user can book tour sevices with proper information. 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
