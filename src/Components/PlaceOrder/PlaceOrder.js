@@ -8,7 +8,7 @@ const PlaceOrder = () => {
     const [itemDetails, setItemDetails] = useState({});
 
     useEffect(() => {
-        fetch('/offerings.json')
+        fetch('https://immense-badlands-80197.herokuapp.com/offerings')
             .then(res => res.json())
             .then(data => setDetails(data));
     }, [])

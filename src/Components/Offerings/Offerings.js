@@ -6,7 +6,7 @@ import Offering from '../Offering/Offering';
 const Offerings = () => {
     const [offerings, setOfferings] = useState([]);
     useEffect(() => {
-        fetch('/offerings.json')
+        fetch('https://immense-badlands-80197.herokuapp.com/offerings')
             .then(res => res.json())
             .then(data => setOfferings(data));
     }, [])

@@ -45,7 +45,7 @@ const Header = () => {
                         {
                             user.displayName &&
                             < Navbar.Text >
-                                <a href="#login"><img height="15%" width="15%" className="rounded-circle me-2" src={user?.photoURL} alt="" />{user.displayName}</a>
+                                <a href="#login" className="text-decoration-none"><img height="15%" width="15%" className="rounded-circle me-2" src={user?.photoURL} alt="" />{user.displayName}</a>
                             </Navbar.Text>
 
                         }
