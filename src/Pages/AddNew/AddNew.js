@@ -11,11 +11,12 @@ const AddNew = () => {
     const handleAddUser = e => {
         const name = nameRef.current.value;
         const description = descriptionRef.current.value;
-        const imgUrl = imgUrlRef.current.value;
+        const img = imgUrlRef.current.value;
         const price = priceRef.current.value;
-        const newOffer = { name, description, imgUrl, price };
+        const newOffer = { name, description, img, price };
 
-        fetch('http://localhost:3000/offerings', {
+
+        fetch('https://immense-badlands-80197.herokuapp.com/offerings', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -23,20 +24,15 @@ const AddNew = () => {
             body: JSON.stringify(newOffer)
         })
         e.preventDefault();
+        alert('New Offer Added Successfully!')
     }
     return (
         <div className="pt-5">
-            {/* <h2>Add a New Plan</h2>
-            <form onSubmit={handleAddUser}>
-                <input type="text" ref={nameRef} />
-                <input type="email" ref={emailRef} />
-                <input type="submit" value="Add" />
-            </form> */}
             <h2>Add a New Plan</h2>
             <Form className="col-md-6 m-auto pb-5" onSubmit={handleAddUser}>
                 <Form.Group className="mb-3" >
                     <Form.Label className="d-flex text-start">Spot Name</Form.Label>
-                    <Form.Control type="text" placeholder="Enter email" ref={nameRef} />
+                    <Form.Control type="text" placeholder="Enter Spot Name" ref={nameRef} />
 
                 </Form.Group>
 
