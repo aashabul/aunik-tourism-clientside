@@ -25,7 +25,7 @@ const Header = () => {
                             }
                             {
                                 user.displayName &&
-                                <Nav.Link as={Link} to="/manageorders">Manage All Orders</Nav.Link>
+                                <Nav.Link as={Link} to="/manageOrders">Manage All Orders</Nav.Link>
 
                             }
 

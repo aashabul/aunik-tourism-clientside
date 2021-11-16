@@ -10,6 +10,8 @@ import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Login from './Pages/Login/Login/Login';
 import AuthProvider from './Context/AuthProvider';
 import AddNew from './Pages/AddNew/AddNew';
+import MyOrders from './Pages/MyOrders/MyOrders';
+import ManageOrders from './Pages/ManageOrders/ManageOrders';
 
 function App() {
   return (
@@ -24,15 +26,24 @@ function App() {
             <Route path="/home">
               <Home></Home>
             </Route>
+            <Route path="/login">
+              <Login></Login>
+            </Route>
+
+            {/* private routes */}
             <PrivateRoute path="/placeOrder/:id">
               <PlaceOrder></PlaceOrder>
             </PrivateRoute>
             <PrivateRoute path="/addnew">
               <AddNew></AddNew>
             </PrivateRoute>
-            <Route path="/login">
-              <Login></Login>
-            </Route>
+            <PrivateRoute path="/myOrders">
+              <MyOrders></MyOrders>
+            </PrivateRoute>
+            <PrivateRoute path="/manageOrders">
+              <ManageOrders></ManageOrders>
+            </PrivateRoute>
+            {/* private routes */}
 
             <Route path='*'>
               <NotFound></NotFound>
