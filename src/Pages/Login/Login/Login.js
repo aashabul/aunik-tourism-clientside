@@ -1,7 +1,5 @@
-import { signInWithPopup } from '@firebase/auth';
 import React from 'react';
 import { useHistory, useLocation } from 'react-router';
-import useFirebase from '../../../Hooks/useFirebase';
 import useAuth from './../../../Hooks/useAuth';
 
 const Login = () => {

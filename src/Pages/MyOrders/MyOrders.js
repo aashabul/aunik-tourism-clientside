@@ -14,7 +14,7 @@ const MyOrders = () => {
             <Row xs={1} md={2} lg={3} className="g-5 mx-5 mb-5">
                 {
                     orders.map(order =>
-                        <Card>
+                        <Card key={order._id}>
                             <Card.Img variant="top" src={order.productUrl} />
                             <Card.Body className="bg-light" >
                                 <Card.Title> Place Name: {order.productName}</Card.Title>

@@ -15,6 +15,7 @@ const Review = () => {
                         <img
                             className="d-block w-100"
                             src="https://i.ibb.co/QCRGLtj/pexels-photo-8972292.png"
+                            alt="first slide"
                         />
                         <Carousel.Caption>
                             <h3>First Customer</h3>

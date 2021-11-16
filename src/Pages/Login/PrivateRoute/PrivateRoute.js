@@ -1,4 +1,3 @@
-import userEvent from '@testing-library/user-event';
 import React from 'react';
 import { Redirect, Route } from 'react-router';
 import useAuth from '../../../Hooks/useAuth';

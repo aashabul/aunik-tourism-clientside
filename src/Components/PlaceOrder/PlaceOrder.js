@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Button, Card, Form } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import { useParams } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
@@ -22,7 +22,7 @@ const PlaceOrder = () => {
             const compareData = details.find(detail => detail.id == id)
             setItemDetails(compareData);
         }
-    }, [details])
+    }, [details, id])
 
     const onSubmit = data => {
         fetch('https://immense-badlands-80197.herokuapp.com/orders', {
